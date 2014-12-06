@@ -102,6 +102,7 @@ Other security enforcing packages like [audit-argument-checks](https://docs.mete
   * jquery
   * underscore
   * raix:handlebar-helpers
+  * http
 
 The "insecure" and "autopublish" packages are removed by default (they make your app vulnerable).
 
