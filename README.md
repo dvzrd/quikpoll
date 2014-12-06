@@ -86,6 +86,9 @@ Other security enforcing packages like [audit-argument-checks](https://docs.mete
 * Accounts
   * accounts-password
   * useraccounts:semantic-ui
+* Forms
+  * aldeed:autoform
+  * aldeed:simple-schema
 * UI and UX
   * fastclick
   * meteorhacks:fast-render
@@ -103,6 +106,7 @@ Other security enforcing packages like [audit-argument-checks](https://docs.mete
   * underscore
   * raix:handlebar-helpers
   * http
+  * mrt:moment
 
 The "insecure" and "autopublish" packages are removed by default (they make your app vulnerable).
 

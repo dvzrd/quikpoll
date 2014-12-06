@@ -1,5 +1,6 @@
 accounts-base@1.1.2
 accounts-password@1.0.4
+aldeed:autoform@3.2.0
 aldeed:collection2@2.2.0
 aldeed:simple-schema@1.0.3
 application-configuration@1.0.3
@@ -57,6 +58,7 @@ minimongo@1.0.5
 mobile-status-bar@1.0.1
 mongo-livedata@1.0.6
 mongo@1.0.8
+mrt:moment@2.6.0
 natestrauser:animate-css@3.1.2
 nooitaf:semantic-ui-less@0.19.3
 npm-bcrypt@0.7.7
