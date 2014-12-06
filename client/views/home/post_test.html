@@ -1,0 +1,18 @@
+<template name="postTest">
+  <div class="one column row">
+    <div class="column">
+      <h2>Post Message Test</h2>
+      {{#autoForm id='postTestForm' type='insert' collection='Messages' validation='keyup'}}
+        <div class="ui form segment">
+          <div class="field">
+            {{> afFieldInput name='message' placeholder='enter your message'}}
+          </div>
+          {{#if afFieldIsInvalid name='message'}}
+            <p class="input-error">{{{afFieldMessage name='message'}}}</p>
+          {{/if}}
+          <button type="submit" class="ui fluid submit button">Post</button>
+        </div>
+      {{/autoForm}}
+    </div>
+  </div>
+</template>
