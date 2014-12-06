@@ -77,6 +77,7 @@ Other security enforcing packages like [audit-argument-checks](https://docs.mete
 
 * Meteor Core
   * standard-app-packages
+  * http
 * Routing
   * iron:router
   * zimme:iron-router-active
@@ -105,7 +106,6 @@ Other security enforcing packages like [audit-argument-checks](https://docs.mete
   * jquery
   * underscore
   * raix:handlebar-helpers
-  * http
   * mrt:moment
 
 The "insecure" and "autopublish" packages are removed by default (they make your app vulnerable).
